@@ -1,0 +1,32 @@
+package javaapplication102;
+
+import java.util.Scanner;
+
+public class JavaApplication102 {
+
+   
+    public static void main(String[] args) {
+       Scanner ler= new Scanner(System.in);
+      showMessage();
+      for (int i=1; i<=5; i++){
+      showMessage();    
+      }
+      show(1);
+      show(2);
+      show(3);
+    }
+    public static void showMessage(){
+        System.out.println("boa tarde");
+        System.out.println("aula de metodos");
+        System.out.println("xiru");
+    }
+    public static void show(int op){
+    if (op==1){
+        System.out.println("boa dia");
+    }else if (op==2){
+        System.out.println("bo tarde");   
+    }else{
+        System.out.println("boa noite");
+    }    
+    }
+}
